@@ -1,0 +1,62 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#gameContainer {
+  text-align: center;
+}
+
+#circlesContainer {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  background-color: #ddd;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #3498db;
+}
+
+.answerButton {
+  margin: 5px;
+  padding: 10px;
+  background-color: #76d7c4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.answerButton:hover {
+  background-color: #48c9b0;
+}
+
+#startButton,
+#resetButton {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startButton:hover,
+#resetButton:hover {
+  background-color: #c0392b;
+}
+
+#scoreChart {
+  font-size: 20px;
+  margin: 10px;
+}
